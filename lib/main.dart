@@ -72,7 +72,7 @@ class _DrawingAppState extends State<DrawingApp> {
       }
 
       String path;
-      final directory = Directory("/E:/flutter/notes");
+      final directory = Directory("C:/Users/user/Desktop");
       if(!directory.existsSync()){
         directory.createSync(recursive: true);
       }
